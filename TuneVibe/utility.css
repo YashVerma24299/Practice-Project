@@ -1,0 +1,193 @@
+.border{
+    border: 2px solid white;
+    margin: 3px;
+}
+
+.flex{
+    display: flex;
+}
+
+.justify_center{
+    justify-content: center;
+}
+
+.items_center{
+    align-items: center;
+}
+
+.bg_black{
+    background-color: #364e5c;
+    color: white;
+}
+
+.invert{
+    filter:invert(1);
+}
+
+.bg_grey{
+    background-color: #121212;
+}
+
+.rounded{
+    border-radius: 7px;
+}
+
+.m_1{
+    margin: 5px;
+}
+
+
+
+
+
+/* Right part Strat */
+
+/* ////haver vaala boxxxx */
+.box:hover {
+    background-color: rgb(65, 92, 62);
+}
+.play{
+    display: flex;
+    justify-content: center;
+}
+.box {
+    height: 30px;
+    width: 30px;
+    background-color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.fa-play {
+    font-size: 15px; /* Adjust the size of the icon */
+    color: black; /* Change the color of the icon */
+}
+
+
+
+
+/* search  bar */
+
+.boxx{
+    height: 15px;
+    display: flex;
+    cursor: pointer;
+    background-color: #000000;
+    padding: 10px 20px;
+    align-items: center;
+    border-radius: 30px;
+    /* box-shadow: 0 5px 5px #000000; */
+}
+
+.boxx:hover input{
+    width: 250px;
+}
+
+.boxx input{
+    width: 0px;
+    background: transparent;
+    transition: 0.9s;
+    border: none;
+    outline: none;
+    font-weight: 500;
+}
+
+.boxx a.fas{
+    font-size: 18px;
+}
+
+.rightside{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+.hamburger:hover{
+    cursor: pointer;
+}
+.hamburger:hover::after {
+    content: "Icon List"; 
+    font-size: 18px;
+    margin-left: 8px;
+    color: #ffffff;
+}
+
+.sizeee{
+    font-size: 18px;
+}
+.dashboradd:hover{
+    cursor: pointer;
+}
+.dashboradd:hover::after {
+    content: " User"; 
+    font-size: 18px;
+    margin-left: 8px;
+    color: #ffffff;
+}
+
+
+.redcolor:hover{
+    color: red;
+    cursor: pointer;
+}
+.yellowsolor:hover{
+    color: rgb(255, 255, 0);
+    cursor: pointer;
+}
+
+
+
+
+
+/* Scrollbar styles for WebKit browsers (Chrome, Safari) */
+
+::-webkit-scrollbar {
+    width: 12px; /* Width of the scrollbar */
+}
+
+::-webkit-scrollbar-track {
+    background: #1c1c1c; /* Dark background color of the track */
+    border-radius: 10px; /* Rounded corners for the track */
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #444444; /* Color of the scrollbar thumb */
+    border-radius: 10px; /* Rounded corners for the thumb */
+    border: 2px solid #1c1c1c; /* Border color matching the track for a smooth effect */
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: #888888; /* Lighter color on hover */
+}
+
+/* Scrollbar styles for Firefox */
+* {
+    scrollbar-width: thin;
+    scrollbar-color: #444444 #1c1c1c;
+}
+
+/* Additional styling for other browsers (like IE, Edge) */
+::-ms-scrollbar {
+    width: 12px;
+}
+
+::-ms-scrollbar-track {
+    background: #1c1c1c;
+    border-radius: 10px;
+}
+
+::-ms-scrollbar-thumb {
+    background-color: #444444;
+    border-radius: 10px;
+    border: 2px solid #1c1c1c;
+}
+
+
+
+
+
+
+
+
